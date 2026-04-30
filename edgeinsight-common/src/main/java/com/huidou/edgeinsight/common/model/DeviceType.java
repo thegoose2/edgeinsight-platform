@@ -15,3 +15,10 @@ public class DeviceType extends AuditableEntity {
 
     @Column(name = "name")
     private String name;
+
+    @Column(name = "profile_type")
+    private String profileType;
+
+    @Column(name = "description")
+    private String description;
+}

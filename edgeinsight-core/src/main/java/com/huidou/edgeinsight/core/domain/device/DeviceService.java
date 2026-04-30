@@ -19,4 +19,6 @@ public interface DeviceService {
     Device findByConnectId(String connectId);
 
     void importDevices(List<Device> devices);
+
+    void updateLifecycle(Long id, String status);
 }

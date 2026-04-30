@@ -1,18 +1,20 @@
 package com.huidou.edgeinsight.core.domain.auth;
 
+import com.huidou.edgeinsight.common.dto.SysRoleVO;
+
 import java.util.List;
 
 public interface RoleService {
 
-    Object createRole(Object role);
+    SysRoleVO createRole(Object role);
 
-    Object updateRole(Long id, Object role);
+    SysRoleVO updateRole(Long id, Object role);
 
     void deleteRole(Long id);
 
-    Object findById(Long id);
+    SysRoleVO findById(Long id);
 
-    List<Object> findAll();
+    List<SysRoleVO> findAll();
 
     void assignPermissions(Long roleId, List<Long> permissionIds);
 }

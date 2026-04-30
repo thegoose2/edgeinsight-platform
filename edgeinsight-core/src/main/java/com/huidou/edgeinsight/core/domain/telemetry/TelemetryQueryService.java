@@ -1,12 +1,16 @@
 package com.huidou.edgeinsight.core.domain.telemetry;
 
-import com.huidou.edgeinsight.common.model.TelemetryRecord;
+import com.huidou.edgeinsight.common.dto.TelemetryLatestVO;
+import com.huidou.edgeinsight.common.dto.TelemetryRecordVO;
+import org.springframework.data.domain.Page;
 
-import java.util.List;
+import java.time.LocalDateTime;
 
 public interface TelemetryQueryService {
 
-    TelemetryRecord getLatest(Long deviceId, String pointCode);
+    TelemetryLatestVO getLatest(Long deviceId);
 
-    List<TelemetryRecord> queryHistory(Long deviceId, String pointCode, Long startTime, Long endTime);
+    Page<TelemetryRecordVO> queryHistory(Long deviceId, String pointCode,
+                                          LocalDateTime from, LocalDateTime to,
+                                          int pageNum, int pageSize);
 }

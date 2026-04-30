@@ -1,6 +1,7 @@
 package com.huidou.edgeinsight.api.security;
 
 import com.huidou.edgeinsight.api.security.annotation.RequiresPermission;
+import com.huidou.edgeinsight.common.exception.ForbiddenException;
 import org.aspectj.lang.JoinPoint;
 import org.aspectj.lang.annotation.Aspect;
 import org.aspectj.lang.annotation.Before;
@@ -17,6 +18,10 @@ public class PermissionAspect {
         RequiresPermission annotation = signature.getMethod().getAnnotation(RequiresPermission.class);
         if (annotation != null) {
             String requiredPermission = annotation.value();
+            JwtTokenProvider.UserInfo userInfo = SecurityContextHolder.getCurrentUser();
+            if (userInfo == null || !userInfo.getPerms().contains(requiredPermission)) {
+                throw new ForbiddenException("Missing required permission: " + requiredPermission);
+            }
         }
     }
 }

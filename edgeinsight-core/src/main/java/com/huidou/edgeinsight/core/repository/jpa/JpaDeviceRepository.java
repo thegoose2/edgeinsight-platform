@@ -10,4 +10,6 @@ import java.util.Optional;
 public interface JpaDeviceRepository extends JpaRepository<Device, Long> {
 
     Optional<Device> findByConnectId(String connectId);
+
+    long countByDeviceTypeId(Long deviceTypeId);
 }

@@ -7,7 +7,7 @@ import org.springframework.stereotype.Repository;
 import java.util.Optional;
 
 @Repository
-public interface JpaProtocolProfileRepository extends JpaRepository<ProtocolProfile, Long> {
+public interface JpaProtocolProfileRepository extends JpaRepository<ProtocolProfile, String> {
 
-    Optional<ProtocolProfile> findByProtocolCode(String protocolCode);
+    Optional<ProtocolProfile> findByProfileType(String profileType);
 }

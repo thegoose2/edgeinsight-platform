@@ -4,22 +4,66 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4c768f25-7c48-423a-b584-bbe1000a9834" name="更改" comment="" />
+    <list default="true" id="4c768f25-7c48-423a-b584-bbe1000a9834" name="更改" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/claudeCodeTabState.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/claudeCodeTabState.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/edgeinsight-api/src/main/java/com/huidou/edgeinsight/api/rest/AuthController.java" beforeDir="false" afterPath="$PROJECT_DIR$/edgeinsight-api/src/main/java/com/huidou/edgeinsight/api/rest/AuthController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/edgeinsight-api/src/main/java/com/huidou/edgeinsight/api/rest/DeviceTypeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/edgeinsight-api/src/main/java/com/huidou/edgeinsight/api/rest/DeviceTypeController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/edgeinsight-api/src/main/java/com/huidou/edgeinsight/api/rest/SysPermissionController.java" beforeDir="false" afterPath="$PROJECT_DIR$/edgeinsight-api/src/main/java/com/huidou/edgeinsight/api/rest/SysPermissionController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/edgeinsight-api/src/main/java/com/huidou/edgeinsight/api/rest/SysRoleController.java" beforeDir="false" afterPath="$PROJECT_DIR$/edgeinsight-api/src/main/java/com/huidou/edgeinsight/api/rest/SysRoleController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/edgeinsight-api/src/main/java/com/huidou/edgeinsight/api/rest/SysUserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/edgeinsight-api/src/main/java/com/huidou/edgeinsight/api/rest/SysUserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/edgeinsight-api/src/main/java/com/huidou/edgeinsight/api/security/JwtAuthFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/edgeinsight-api/src/main/java/com/huidou/edgeinsight/api/security/JwtAuthFilter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/edgeinsight-api/src/main/java/com/huidou/edgeinsight/api/security/JwtTokenProvider.java" beforeDir="false" afterPath="$PROJECT_DIR$/edgeinsight-api/src/main/java/com/huidou/edgeinsight/api/security/JwtTokenProvider.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/edgeinsight-api/src/main/java/com/huidou/edgeinsight/api/security/PermissionAspect.java" beforeDir="false" afterPath="$PROJECT_DIR$/edgeinsight-api/src/main/java/com/huidou/edgeinsight/api/security/PermissionAspect.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/edgeinsight-common/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/edgeinsight-common/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/edgeinsight-common/src/main/java/com/huidou/edgeinsight/common/dto/BaseQuery.java" beforeDir="false" afterPath="$PROJECT_DIR$/edgeinsight-common/src/main/java/com/huidou/edgeinsight/common/dto/BaseQuery.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/edgeinsight-common/src/main/java/com/huidou/edgeinsight/common/dto/PageResult.java" beforeDir="false" afterPath="$PROJECT_DIR$/edgeinsight-common/src/main/java/com/huidou/edgeinsight/common/dto/PageResult.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/edgeinsight-common/src/main/java/com/huidou/edgeinsight/common/dto/Result.java" beforeDir="false" afterPath="$PROJECT_DIR$/edgeinsight-common/src/main/java/com/huidou/edgeinsight/common/dto/Result.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/edgeinsight-common/src/main/java/com/huidou/edgeinsight/common/event/TelemetryReceivedEvent.java" beforeDir="false" afterPath="$PROJECT_DIR$/edgeinsight-common/src/main/java/com/huidou/edgeinsight/common/event/TelemetryReceivedEvent.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/edgeinsight-common/src/main/java/com/huidou/edgeinsight/common/model/DeviceType.java" beforeDir="false" afterPath="$PROJECT_DIR$/edgeinsight-common/src/main/java/com/huidou/edgeinsight/common/model/DeviceType.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/edgeinsight-common/src/main/java/com/huidou/edgeinsight/common/model/base/BaseEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/edgeinsight-common/src/main/java/com/huidou/edgeinsight/common/model/base/BaseEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/edgeinsight-core/src/main/java/com/huidou/edgeinsight/core/domain/auth/AuthService.java" beforeDir="false" afterPath="$PROJECT_DIR$/edgeinsight-core/src/main/java/com/huidou/edgeinsight/core/domain/auth/AuthService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/edgeinsight-core/src/main/java/com/huidou/edgeinsight/core/domain/auth/RoleService.java" beforeDir="false" afterPath="$PROJECT_DIR$/edgeinsight-core/src/main/java/com/huidou/edgeinsight/core/domain/auth/RoleService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/edgeinsight-core/src/main/java/com/huidou/edgeinsight/core/domain/auth/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/edgeinsight-core/src/main/java/com/huidou/edgeinsight/core/domain/auth/UserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/edgeinsight-core/src/main/java/com/huidou/edgeinsight/core/domain/base/BaseServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/edgeinsight-core/src/main/java/com/huidou/edgeinsight/core/domain/base/BaseServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/edgeinsight-core/src/main/java/com/huidou/edgeinsight/core/domain/device/DeviceService.java" beforeDir="false" afterPath="$PROJECT_DIR$/edgeinsight-core/src/main/java/com/huidou/edgeinsight/core/domain/device/DeviceService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/edgeinsight-core/src/main/java/com/huidou/edgeinsight/core/domain/online/ConnectivityLogService.java" beforeDir="false" afterPath="$PROJECT_DIR$/edgeinsight-core/src/main/java/com/huidou/edgeinsight/core/domain/online/ConnectivityLogService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/edgeinsight-core/src/main/java/com/huidou/edgeinsight/core/domain/online/OnlineStatusService.java" beforeDir="false" afterPath="$PROJECT_DIR$/edgeinsight-core/src/main/java/com/huidou/edgeinsight/core/domain/online/OnlineStatusService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/edgeinsight-core/src/main/java/com/huidou/edgeinsight/core/domain/telemetry/TelemetryQueryService.java" beforeDir="false" afterPath="$PROJECT_DIR$/edgeinsight-core/src/main/java/com/huidou/edgeinsight/core/domain/telemetry/TelemetryQueryService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/edgeinsight-core/src/main/java/com/huidou/edgeinsight/core/repository/jpa/JpaConnectivityLogRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/edgeinsight-core/src/main/java/com/huidou/edgeinsight/core/repository/jpa/JpaConnectivityLogRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/edgeinsight-core/src/main/java/com/huidou/edgeinsight/core/repository/jpa/JpaDeviceRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/edgeinsight-core/src/main/java/com/huidou/edgeinsight/core/repository/jpa/JpaDeviceRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/edgeinsight-core/src/main/java/com/huidou/edgeinsight/core/repository/jpa/JpaProtocolProfileRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/edgeinsight-core/src/main/java/com/huidou/edgeinsight/core/repository/jpa/JpaProtocolProfileRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/edgeinsight-core/src/main/java/com/huidou/edgeinsight/core/repository/jpa/JpaTelemetryRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/edgeinsight-core/src/main/java/com/huidou/edgeinsight/core/repository/jpa/JpaTelemetryRepository.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="EmbeddingIndexingInfo">
+    <option name="cachedIndexableFilesCount" value="119" />
     <option name="fileBasedEmbeddingIndicesEnabled" value="true" />
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="KubernetesApiPersistence"><![CDATA[{}]]></component>
-  <component name="KubernetesApiProvider"><![CDATA[{
-  "isMigrated": true
-}]]></component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;thegoose2&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;git@github.com:thegoose2/edgeinsight-platform.git&quot;,
+    &quot;accountId&quot;: &quot;fe4a7570-4172-4968-8f80-8c994ac884b3&quot;
+  }
+}</component>
+  <component name="KubernetesApiPersistence">{}</component>
+  <component name="KubernetesApiProvider">{
+  &quot;isMigrated&quot;: true
+}</component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
@@ -54,7 +98,9 @@
     "RunOnceActivity.MCP Project settings loaded": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
+    "RunOnceActivity.git.unshallow": "true",
     "RunOnceActivity.typescript.service.memoryLimit.init": "true",
+    "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "/Users/panpanqingche/Documents/idea/edgeinsight-platform",
     "node.js.detected.package.eslint": "true",
@@ -109,7 +155,8 @@
       <workItem from="1777280588895" duration="919000" />
       <workItem from="1777338412724" duration="2570000" />
       <workItem from="1777341879772" duration="46000" />
-      <workItem from="1777341946430" duration="9498000" />
+      <workItem from="1777341946430" duration="21931000" />
+      <workItem from="1777424665715" duration="11193000" />
     </task>
     <servers />
   </component>

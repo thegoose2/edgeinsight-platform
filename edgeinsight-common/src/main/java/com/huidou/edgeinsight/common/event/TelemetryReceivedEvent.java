@@ -16,20 +16,4 @@ public class TelemetryReceivedEvent extends ApplicationEvent {
         this.value = value;
         this.timestamp = timestamp;
     }
-
-    public Long getDeviceId() {
-        return deviceId;
-    }
-
-    public String getPointCode() {
-        return pointCode;
-    }
-
-    public Object getValue() {
-        return value;
-    }
-
-    public Long getTimestamp() {
-        return timestamp;
-    }
 }
