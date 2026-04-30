@@ -1,12 +1,14 @@
 package com.huidou.edgeinsight.common.model;
 
 import com.huidou.edgeinsight.common.model.base.AuditableEntity;
+import lombok.Data;
 
 import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.Id;
 import javax.persistence.Table;
 
+@Data
 @Entity
 @Table(name = "protocol_profile")
 public class ProtocolProfile extends AuditableEntity {

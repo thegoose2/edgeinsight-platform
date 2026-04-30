@@ -1,12 +1,14 @@
 package com.huidou.edgeinsight.common.model;
 
 import com.huidou.edgeinsight.common.model.base.BaseEntity;
+import lombok.Data;
 
 import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.Table;
 import java.time.LocalDateTime;
 
+@Data
 @Entity
 @Table(name = "device_connectivity_log")
 public class DeviceConnectivityLog extends BaseEntity {

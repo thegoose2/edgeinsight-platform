@@ -1,11 +1,13 @@
 package com.huidou.edgeinsight.common.model;
 
 import com.huidou.edgeinsight.common.model.base.AuditableEntity;
+import lombok.Data;
 
 import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.Table;
 
+@Data
 @Entity
 @Table(name = "device_type")
 public class DeviceType extends AuditableEntity {
@@ -15,3 +17,4 @@ public class DeviceType extends AuditableEntity {
 
     @Column(name = "name")
     private String name;
+}

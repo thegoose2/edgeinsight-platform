@@ -1,12 +1,14 @@
 package com.huidou.edgeinsight.common.model;
 
 import com.huidou.edgeinsight.common.model.base.AuditableEntity;
+import lombok.Data;
 
 import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.Table;
 import java.math.BigDecimal;
 
+@Data
 @Entity
 @Table(name = "device_type_point")
 public class DeviceTypePoint extends AuditableEntity {
