@@ -6,146 +6,13 @@
   <component name="ChangeListManager">
     <list default="true" id="4c768f25-7c48-423a-b584-bbe1000a9834" name="更改" comment="登录功能">
       <change beforePath="$PROJECT_DIR$/.idea/claudeCodeTabState.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/claudeCodeTabState.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/edgeinsight-adapter-mqtt/target/classes/com/huidou/edgeinsight/adapter/mqtt/DeviceAuthenticator.class" beforeDir="false" afterPath="$PROJECT_DIR$/edgeinsight-adapter-mqtt/target/classes/com/huidou/edgeinsight/adapter/mqtt/DeviceAuthenticator.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/edgeinsight-adapter-mqtt/target/classes/com/huidou/edgeinsight/adapter/mqtt/MoquetteBrokerConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/edgeinsight-adapter-mqtt/target/classes/com/huidou/edgeinsight/adapter/mqtt/MoquetteBrokerConfig.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/edgeinsight-adapter-mqtt/target/classes/com/huidou/edgeinsight/adapter/mqtt/MqttMessageListener.class" beforeDir="false" afterPath="$PROJECT_DIR$/edgeinsight-adapter-mqtt/target/classes/com/huidou/edgeinsight/adapter/mqtt/MqttMessageListener.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/edgeinsight-adapter-mqtt/target/classes/com/huidou/edgeinsight/adapter/mqtt/MqttPublisher.class" beforeDir="false" afterPath="$PROJECT_DIR$/edgeinsight-adapter-mqtt/target/classes/com/huidou/edgeinsight/adapter/mqtt/MqttPublisher.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/edgeinsight-adapter-mqtt/target/classes/com/huidou/edgeinsight/adapter/mqtt/impl/mqtt/DefaultJsonParser.class" beforeDir="false" afterPath="$PROJECT_DIR$/edgeinsight-adapter-mqtt/target/classes/com/huidou/edgeinsight/adapter/mqtt/impl/mqtt/DefaultJsonParser.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/edgeinsight-adapter-spi/target/classes/com/huidou/edgeinsight/adapter/spi/ProtocolAdapter.class" beforeDir="false" afterPath="$PROJECT_DIR$/edgeinsight-adapter-spi/target/classes/com/huidou/edgeinsight/adapter/spi/ProtocolAdapter.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/edgeinsight-api/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/edgeinsight-api/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/edgeinsight-api/src/main/java/com/huidou/edgeinsight/api/config/WebSecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/edgeinsight-api/src/main/java/com/huidou/edgeinsight/api/config/WebSecurityConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/edgeinsight-api/src/main/java/com/huidou/edgeinsight/api/rest/AuthController.java" beforeDir="false" afterPath="$PROJECT_DIR$/edgeinsight-api/src/main/java/com/huidou/edgeinsight/api/rest/AuthController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/edgeinsight-api/src/main/java/com/huidou/edgeinsight/api/security/JwtAuthFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/edgeinsight-api/src/main/java/com/huidou/edgeinsight/api/security/JwtAuthFilter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/edgeinsight-api/src/main/java/com/huidou/edgeinsight/api/security/JwtTokenProvider.java" beforeDir="false" afterPath="$PROJECT_DIR$/edgeinsight-api/src/main/java/com/huidou/edgeinsight/api/security/JwtTokenProvider.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/edgeinsight-api/src/main/java/com/huidou/edgeinsight/api/security/PermissionAspect.java" beforeDir="false" afterPath="$PROJECT_DIR$/edgeinsight-api/src/main/java/com/huidou/edgeinsight/api/security/PermissionAspect.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/edgeinsight-api/target/classes/com/huidou/edgeinsight/api/config/WebSecurityConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/edgeinsight-api/target/classes/com/huidou/edgeinsight/api/config/WebSecurityConfig.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/edgeinsight-api/target/classes/com/huidou/edgeinsight/api/rest/AuthController.class" beforeDir="false" afterPath="$PROJECT_DIR$/edgeinsight-api/target/classes/com/huidou/edgeinsight/api/rest/AuthController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/edgeinsight-api/target/classes/com/huidou/edgeinsight/api/rest/ConnectivityController.class" beforeDir="false" afterPath="$PROJECT_DIR$/edgeinsight-api/target/classes/com/huidou/edgeinsight/api/rest/ConnectivityController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/edgeinsight-api/target/classes/com/huidou/edgeinsight/api/rest/DeviceController.class" beforeDir="false" afterPath="$PROJECT_DIR$/edgeinsight-api/target/classes/com/huidou/edgeinsight/api/rest/DeviceController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/edgeinsight-api/target/classes/com/huidou/edgeinsight/api/rest/DeviceTypeController.class" beforeDir="false" afterPath="$PROJECT_DIR$/edgeinsight-api/target/classes/com/huidou/edgeinsight/api/rest/DeviceTypeController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/edgeinsight-api/target/classes/com/huidou/edgeinsight/api/rest/ProtocolProfileController.class" beforeDir="false" afterPath="$PROJECT_DIR$/edgeinsight-api/target/classes/com/huidou/edgeinsight/api/rest/ProtocolProfileController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/edgeinsight-api/target/classes/com/huidou/edgeinsight/api/rest/SysPermissionController.class" beforeDir="false" afterPath="$PROJECT_DIR$/edgeinsight-api/target/classes/com/huidou/edgeinsight/api/rest/SysPermissionController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/edgeinsight-api/target/classes/com/huidou/edgeinsight/api/rest/SysRoleController.class" beforeDir="false" afterPath="$PROJECT_DIR$/edgeinsight-api/target/classes/com/huidou/edgeinsight/api/rest/SysRoleController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/edgeinsight-api/src/main/java/com/huidou/edgeinsight/api/rest/SysUserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/edgeinsight-api/src/main/java/com/huidou/edgeinsight/api/rest/SysUserController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/edgeinsight-api/target/classes/com/huidou/edgeinsight/api/rest/SysUserController.class" beforeDir="false" afterPath="$PROJECT_DIR$/edgeinsight-api/target/classes/com/huidou/edgeinsight/api/rest/SysUserController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/edgeinsight-api/target/classes/com/huidou/edgeinsight/api/rest/SystemConfigController.class" beforeDir="false" afterPath="$PROJECT_DIR$/edgeinsight-api/target/classes/com/huidou/edgeinsight/api/rest/SystemConfigController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/edgeinsight-api/target/classes/com/huidou/edgeinsight/api/rest/TelemetryController.class" beforeDir="false" afterPath="$PROJECT_DIR$/edgeinsight-api/target/classes/com/huidou/edgeinsight/api/rest/TelemetryController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/edgeinsight-api/target/classes/com/huidou/edgeinsight/api/security/JwtAuthFilter.class" beforeDir="false" afterPath="$PROJECT_DIR$/edgeinsight-api/target/classes/com/huidou/edgeinsight/api/security/JwtAuthFilter.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/edgeinsight-api/target/classes/com/huidou/edgeinsight/api/security/JwtTokenProvider.class" beforeDir="false" afterPath="$PROJECT_DIR$/edgeinsight-api/target/classes/com/huidou/edgeinsight/api/security/JwtTokenProvider.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/edgeinsight-api/target/classes/com/huidou/edgeinsight/api/security/PermissionAspect.class" beforeDir="false" afterPath="$PROJECT_DIR$/edgeinsight-api/target/classes/com/huidou/edgeinsight/api/security/PermissionAspect.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/edgeinsight-api/target/classes/com/huidou/edgeinsight/api/security/annotation/Anonymous.class" beforeDir="false" afterPath="$PROJECT_DIR$/edgeinsight-api/target/classes/com/huidou/edgeinsight/api/security/annotation/Anonymous.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/edgeinsight-api/target/classes/com/huidou/edgeinsight/api/security/annotation/RequiresPermission.class" beforeDir="false" afterPath="$PROJECT_DIR$/edgeinsight-api/target/classes/com/huidou/edgeinsight/api/security/annotation/RequiresPermission.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/edgeinsight-api/target/classes/com/huidou/edgeinsight/api/security/config/SecurityProperties.class" beforeDir="false" afterPath="$PROJECT_DIR$/edgeinsight-api/target/classes/com/huidou/edgeinsight/api/security/config/SecurityProperties.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/edgeinsight-api/target/classes/com/huidou/edgeinsight/api/websocket/RealtimeWsHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/edgeinsight-api/target/classes/com/huidou/edgeinsight/api/websocket/RealtimeWsHandler.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/edgeinsight-api/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/edgeinsight-api/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/edgeinsight-api/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/edgeinsight-api/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/edgeinsight-app/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/edgeinsight-app/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/edgeinsight-app/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/edgeinsight-app/target/classes/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/edgeinsight-app/src/main/java/com/huidou/edgeinsight/EdgeInsightApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/edgeinsight-app/src/main/java/com/huidou/edgeinsight/EdgeInsightApplication.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/edgeinsight-app/target/classes/com/huidou/edgeinsight/EdgeInsightApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/edgeinsight-app/target/classes/com/huidou/edgeinsight/EdgeInsightApplication.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/edgeinsight-common/src/main/java/com/huidou/edgeinsight/common/dto/Result.java" beforeDir="false" afterPath="$PROJECT_DIR$/edgeinsight-common/src/main/java/com/huidou/edgeinsight/common/dto/Result.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/edgeinsight-common/src/main/java/com/huidou/edgeinsight/common/dto/login/LoginRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/edgeinsight-common/src/main/java/com/huidou/edgeinsight/common/dto/login/LoginRequest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/edgeinsight-common/src/main/java/com/huidou/edgeinsight/common/dto/login/LoginResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/edgeinsight-common/src/main/java/com/huidou/edgeinsight/common/dto/login/LoginResponse.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/edgeinsight-common/src/main/java/com/huidou/edgeinsight/common/dto/login/LoginResponseData.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/edgeinsight-common/src/main/java/com/huidou/edgeinsight/common/model/ProtocolProfile.java" beforeDir="false" afterPath="$PROJECT_DIR$/edgeinsight-common/src/main/java/com/huidou/edgeinsight/common/model/ProtocolProfile.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/edgeinsight-common/src/main/java/com/huidou/edgeinsight/common/model/SysRole.java" beforeDir="false" afterPath="$PROJECT_DIR$/edgeinsight-common/src/main/java/com/huidou/edgeinsight/common/model/SysRole.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/edgeinsight-common/src/main/java/com/huidou/edgeinsight/common/model/SysRolePermission.java" beforeDir="false" afterPath="$PROJECT_DIR$/edgeinsight-common/src/main/java/com/huidou/edgeinsight/common/model/SysRolePermission.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/edgeinsight-common/src/main/java/com/huidou/edgeinsight/common/model/SysUser.java" beforeDir="false" afterPath="$PROJECT_DIR$/edgeinsight-common/src/main/java/com/huidou/edgeinsight/common/model/SysUser.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/edgeinsight-common/src/main/java/com/huidou/edgeinsight/common/model/SysUserRole.java" beforeDir="false" afterPath="$PROJECT_DIR$/edgeinsight-common/src/main/java/com/huidou/edgeinsight/common/model/SysUserRole.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/edgeinsight-common/src/main/java/com/huidou/edgeinsight/common/model/TelemetryLatest.java" beforeDir="false" afterPath="$PROJECT_DIR$/edgeinsight-common/src/main/java/com/huidou/edgeinsight/common/model/TelemetryLatest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/edgeinsight-common/target/classes/com/huidou/edgeinsight/common/dto/BaseQuery.class" beforeDir="false" afterPath="$PROJECT_DIR$/edgeinsight-common/target/classes/com/huidou/edgeinsight/common/dto/BaseQuery.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/edgeinsight-common/target/classes/com/huidou/edgeinsight/common/dto/PageResult.class" beforeDir="false" afterPath="$PROJECT_DIR$/edgeinsight-common/target/classes/com/huidou/edgeinsight/common/dto/PageResult.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/edgeinsight-common/target/classes/com/huidou/edgeinsight/common/dto/Result.class" beforeDir="false" afterPath="$PROJECT_DIR$/edgeinsight-common/target/classes/com/huidou/edgeinsight/common/dto/Result.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/edgeinsight-common/target/classes/com/huidou/edgeinsight/common/dto/insert/InsertRequest.class" beforeDir="false" afterPath="$PROJECT_DIR$/edgeinsight-common/target/classes/com/huidou/edgeinsight/common/dto/insert/InsertRequest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/edgeinsight-common/target/classes/com/huidou/edgeinsight/common/dto/login/LoginRequest.class" beforeDir="false" afterPath="$PROJECT_DIR$/edgeinsight-common/target/classes/com/huidou/edgeinsight/common/dto/login/LoginRequest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/edgeinsight-common/target/classes/com/huidou/edgeinsight/common/dto/login/LoginResponse$LoginResponseBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/edgeinsight-common/target/classes/com/huidou/edgeinsight/common/dto/login/LoginResponse$LoginResponseBuilder.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/edgeinsight-common/target/classes/com/huidou/edgeinsight/common/dto/login/LoginResponse.class" beforeDir="false" afterPath="$PROJECT_DIR$/edgeinsight-common/target/classes/com/huidou/edgeinsight/common/dto/login/LoginResponse.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/edgeinsight-common/target/classes/com/huidou/edgeinsight/common/dto/login/LoginResponseData$LoginResponseDataBuilder.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/edgeinsight-common/target/classes/com/huidou/edgeinsight/common/dto/login/LoginResponseData.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/edgeinsight-common/target/classes/com/huidou/edgeinsight/common/dto/login/LoginResponseUserInfo$LoginResponseUserInfoBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/edgeinsight-common/target/classes/com/huidou/edgeinsight/common/dto/login/LoginResponseUserInfo$LoginResponseUserInfoBuilder.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/edgeinsight-common/target/classes/com/huidou/edgeinsight/common/dto/login/LoginResponseUserInfo.class" beforeDir="false" afterPath="$PROJECT_DIR$/edgeinsight-common/target/classes/com/huidou/edgeinsight/common/dto/login/LoginResponseUserInfo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/edgeinsight-common/target/classes/com/huidou/edgeinsight/common/event/AlarmTriggeredEvent.class" beforeDir="false" afterPath="$PROJECT_DIR$/edgeinsight-common/target/classes/com/huidou/edgeinsight/common/event/AlarmTriggeredEvent.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/edgeinsight-common/target/classes/com/huidou/edgeinsight/common/event/CommandResultEvent.class" beforeDir="false" afterPath="$PROJECT_DIR$/edgeinsight-common/target/classes/com/huidou/edgeinsight/common/event/CommandResultEvent.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/edgeinsight-common/target/classes/com/huidou/edgeinsight/common/event/DeviceStatusChangedEvent.class" beforeDir="false" afterPath="$PROJECT_DIR$/edgeinsight-common/target/classes/com/huidou/edgeinsight/common/event/DeviceStatusChangedEvent.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/edgeinsight-common/target/classes/com/huidou/edgeinsight/common/event/TelemetryReceivedEvent.class" beforeDir="false" afterPath="$PROJECT_DIR$/edgeinsight-common/target/classes/com/huidou/edgeinsight/common/event/TelemetryReceivedEvent.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/edgeinsight-common/target/classes/com/huidou/edgeinsight/common/exception/BusinessException.class" beforeDir="false" afterPath="$PROJECT_DIR$/edgeinsight-common/target/classes/com/huidou/edgeinsight/common/exception/BusinessException.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/edgeinsight-common/target/classes/com/huidou/edgeinsight/common/exception/ForbiddenException.class" beforeDir="false" afterPath="$PROJECT_DIR$/edgeinsight-common/target/classes/com/huidou/edgeinsight/common/exception/ForbiddenException.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/edgeinsight-common/target/classes/com/huidou/edgeinsight/common/exception/NotFoundException.class" beforeDir="false" afterPath="$PROJECT_DIR$/edgeinsight-common/target/classes/com/huidou/edgeinsight/common/exception/NotFoundException.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/edgeinsight-common/target/classes/com/huidou/edgeinsight/common/exception/UnauthorizedException.class" beforeDir="false" afterPath="$PROJECT_DIR$/edgeinsight-common/target/classes/com/huidou/edgeinsight/common/exception/UnauthorizedException.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/edgeinsight-common/target/classes/com/huidou/edgeinsight/common/model/Device.class" beforeDir="false" afterPath="$PROJECT_DIR$/edgeinsight-common/target/classes/com/huidou/edgeinsight/common/model/Device.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/edgeinsight-common/target/classes/com/huidou/edgeinsight/common/model/DeviceConnectivityLog.class" beforeDir="false" afterPath="$PROJECT_DIR$/edgeinsight-common/target/classes/com/huidou/edgeinsight/common/model/DeviceConnectivityLog.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/edgeinsight-common/target/classes/com/huidou/edgeinsight/common/model/DeviceStatus.class" beforeDir="false" afterPath="$PROJECT_DIR$/edgeinsight-common/target/classes/com/huidou/edgeinsight/common/model/DeviceStatus.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/edgeinsight-common/target/classes/com/huidou/edgeinsight/common/model/DeviceType.class" beforeDir="false" afterPath="$PROJECT_DIR$/edgeinsight-common/target/classes/com/huidou/edgeinsight/common/model/DeviceType.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/edgeinsight-common/target/classes/com/huidou/edgeinsight/common/model/DeviceTypePoint.class" beforeDir="false" afterPath="$PROJECT_DIR$/edgeinsight-common/target/classes/com/huidou/edgeinsight/common/model/DeviceTypePoint.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/edgeinsight-common/target/classes/com/huidou/edgeinsight/common/model/ProtocolProfile.class" beforeDir="false" afterPath="$PROJECT_DIR$/edgeinsight-common/target/classes/com/huidou/edgeinsight/common/model/ProtocolProfile.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/edgeinsight-common/target/classes/com/huidou/edgeinsight/common/model/SysPermission$PermType.class" beforeDir="false" afterPath="$PROJECT_DIR$/edgeinsight-common/target/classes/com/huidou/edgeinsight/common/model/SysPermission$PermType.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/edgeinsight-common/target/classes/com/huidou/edgeinsight/common/model/SysPermission.class" beforeDir="false" afterPath="$PROJECT_DIR$/edgeinsight-common/target/classes/com/huidou/edgeinsight/common/model/SysPermission.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/edgeinsight-common/target/classes/com/huidou/edgeinsight/common/model/SysRole$RoleStatus.class" beforeDir="false" afterPath="$PROJECT_DIR$/edgeinsight-common/target/classes/com/huidou/edgeinsight/common/model/SysRole$RoleStatus.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/edgeinsight-common/target/classes/com/huidou/edgeinsight/common/model/SysRole.class" beforeDir="false" afterPath="$PROJECT_DIR$/edgeinsight-common/target/classes/com/huidou/edgeinsight/common/model/SysRole.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/edgeinsight-common/target/classes/com/huidou/edgeinsight/common/model/SysRolePermission.class" beforeDir="false" afterPath="$PROJECT_DIR$/edgeinsight-common/target/classes/com/huidou/edgeinsight/common/model/SysRolePermission.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/edgeinsight-common/target/classes/com/huidou/edgeinsight/common/model/SysUser$UserStatus.class" beforeDir="false" afterPath="$PROJECT_DIR$/edgeinsight-common/target/classes/com/huidou/edgeinsight/common/model/SysUser$UserStatus.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/edgeinsight-common/target/classes/com/huidou/edgeinsight/common/model/SysUser.class" beforeDir="false" afterPath="$PROJECT_DIR$/edgeinsight-common/target/classes/com/huidou/edgeinsight/common/model/SysUser.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/edgeinsight-common/target/classes/com/huidou/edgeinsight/common/model/SysUserRole.class" beforeDir="false" afterPath="$PROJECT_DIR$/edgeinsight-common/target/classes/com/huidou/edgeinsight/common/model/SysUserRole.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/edgeinsight-common/target/classes/com/huidou/edgeinsight/common/model/SystemConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/edgeinsight-common/target/classes/com/huidou/edgeinsight/common/model/SystemConfig.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/edgeinsight-common/target/classes/com/huidou/edgeinsight/common/model/TelemetryLatest.class" beforeDir="false" afterPath="$PROJECT_DIR$/edgeinsight-common/target/classes/com/huidou/edgeinsight/common/model/TelemetryLatest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/edgeinsight-common/target/classes/com/huidou/edgeinsight/common/model/TelemetryRecord.class" beforeDir="false" afterPath="$PROJECT_DIR$/edgeinsight-common/target/classes/com/huidou/edgeinsight/common/model/TelemetryRecord.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/edgeinsight-common/target/classes/com/huidou/edgeinsight/common/model/base/AuditableEntity.class" beforeDir="false" afterPath="$PROJECT_DIR$/edgeinsight-common/target/classes/com/huidou/edgeinsight/common/model/base/AuditableEntity.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/edgeinsight-common/target/classes/com/huidou/edgeinsight/common/model/base/BaseEntity.class" beforeDir="false" afterPath="$PROJECT_DIR$/edgeinsight-common/target/classes/com/huidou/edgeinsight/common/model/base/BaseEntity.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/edgeinsight-common/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/edgeinsight-common/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/edgeinsight-common/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/edgeinsight-common/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/edgeinsight-core/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/edgeinsight-core/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/edgeinsight-core/src/main/java/com/huidou/edgeinsight/core/domain/auth/AuthService.java" beforeDir="false" afterPath="$PROJECT_DIR$/edgeinsight-core/src/main/java/com/huidou/edgeinsight/core/domain/auth/AuthService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/edgeinsight-core/src/main/java/com/huidou/edgeinsight/core/domain/base/GlobalExceptionHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/edgeinsight-core/src/main/java/com/huidou/edgeinsight/core/domain/base/GlobalExceptionHandler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/edgeinsight-core/src/main/java/com/huidou/edgeinsight/core/repository/jpa/JpaProtocolProfileRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/edgeinsight-core/src/main/java/com/huidou/edgeinsight/core/repository/jpa/JpaProtocolProfileRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/edgeinsight-core/src/main/java/com/huidou/edgeinsight/core/repository/jpa/JpaSysUserRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/edgeinsight-core/src/main/java/com/huidou/edgeinsight/core/repository/jpa/JpaSysUserRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/edgeinsight-core/src/main/java/com/huidou/edgeinsight/core/repository/spi/BaseRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/edgeinsight-core/src/main/java/com/huidou/edgeinsight/core/repository/spi/BaseRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/edgeinsight-core/src/main/java/com/huidou/edgeinsight/core/repository/spi/ProtocolProfileRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/edgeinsight-core/src/main/java/com/huidou/edgeinsight/core/repository/spi/ProtocolProfileRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/edgeinsight-core/src/main/java/com/huidou/edgeinsight/core/repository/spi/SysUserRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/edgeinsight-core/src/main/java/com/huidou/edgeinsight/core/repository/spi/SysUserRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/edgeinsight-core/target/classes/com/huidou/edgeinsight/core/auditing/SecurityAuditorAware.class" beforeDir="false" afterPath="$PROJECT_DIR$/edgeinsight-core/target/classes/com/huidou/edgeinsight/core/auditing/SecurityAuditorAware.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/edgeinsight-core/target/classes/com/huidou/edgeinsight/core/cache/ResolvedContext.class" beforeDir="false" afterPath="$PROJECT_DIR$/edgeinsight-core/target/classes/com/huidou/edgeinsight/core/cache/ResolvedContext.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/edgeinsight-core/target/classes/com/huidou/edgeinsight/core/cache/ResolvedContextCache.class" beforeDir="false" afterPath="$PROJECT_DIR$/edgeinsight-core/target/classes/com/huidou/edgeinsight/core/cache/ResolvedContextCache.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/edgeinsight-core/target/classes/com/huidou/edgeinsight/core/config/PasswordEncoderConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/edgeinsight-core/target/classes/com/huidou/edgeinsight/core/config/PasswordEncoderConfig.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/edgeinsight-core/target/classes/com/huidou/edgeinsight/core/config/SystemConfigService.class" beforeDir="false" afterPath="$PROJECT_DIR$/edgeinsight-core/target/classes/com/huidou/edgeinsight/core/config/SystemConfigService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/edgeinsight-core/target/classes/com/huidou/edgeinsight/core/domain/auth/AuthService.class" beforeDir="false" afterPath="$PROJECT_DIR$/edgeinsight-core/target/classes/com/huidou/edgeinsight/core/domain/auth/AuthService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/edgeinsight-core/target/classes/com/huidou/edgeinsight/core/domain/auth/RoleService.class" beforeDir="false" afterPath="$PROJECT_DIR$/edgeinsight-core/target/classes/com/huidou/edgeinsight/core/domain/auth/RoleService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/edgeinsight-core/target/classes/com/huidou/edgeinsight/core/domain/auth/UserService.class" beforeDir="false" afterPath="$PROJECT_DIR$/edgeinsight-core/target/classes/com/huidou/edgeinsight/core/domain/auth/UserService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/edgeinsight-core/target/classes/com/huidou/edgeinsight/core/domain/base/BaseService.class" beforeDir="false" afterPath="$PROJECT_DIR$/edgeinsight-core/target/classes/com/huidou/edgeinsight/core/domain/base/BaseService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/edgeinsight-core/target/classes/com/huidou/edgeinsight/core/domain/base/BaseServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/edgeinsight-core/target/classes/com/huidou/edgeinsight/core/domain/base/BaseServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/edgeinsight-core/target/classes/com/huidou/edgeinsight/core/domain/base/GlobalExceptionHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/edgeinsight-core/target/classes/com/huidou/edgeinsight/core/domain/base/GlobalExceptionHandler.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/edgeinsight-core/target/classes/com/huidou/edgeinsight/core/domain/device/DeviceRegistrationService.class" beforeDir="false" afterPath="$PROJECT_DIR$/edgeinsight-core/target/classes/com/huidou/edgeinsight/core/domain/device/DeviceRegistrationService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/edgeinsight-core/target/classes/com/huidou/edgeinsight/core/domain/device/DeviceService.class" beforeDir="false" afterPath="$PROJECT_DIR$/edgeinsight-core/target/classes/com/huidou/edgeinsight/core/domain/device/DeviceService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/edgeinsight-core/target/classes/com/huidou/edgeinsight/core/domain/device/DeviceTypeService.class" beforeDir="false" afterPath="$PROJECT_DIR$/edgeinsight-core/target/classes/com/huidou/edgeinsight/core/domain/device/DeviceTypeService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/edgeinsight-core/target/classes/com/huidou/edgeinsight/core/domain/notification/AndonClient.class" beforeDir="false" afterPath="$PROJECT_DIR$/edgeinsight-core/target/classes/com/huidou/edgeinsight/core/domain/notification/AndonClient.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/edgeinsight-core/target/classes/com/huidou/edgeinsight/core/domain/notification/WebSocketPushService.class" beforeDir="false" afterPath="$PROJECT_DIR$/edgeinsight-core/target/classes/com/huidou/edgeinsight/core/domain/notification/WebSocketPushService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/edgeinsight-core/target/classes/com/huidou/edgeinsight/core/domain/online/ConnectivityLogService.class" beforeDir="false" afterPath="$PROJECT_DIR$/edgeinsight-core/target/classes/com/huidou/edgeinsight/core/domain/online/ConnectivityLogService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/edgeinsight-core/target/classes/com/huidou/edgeinsight/core/domain/online/OnlineStatusService.class" beforeDir="false" afterPath="$PROJECT_DIR$/edgeinsight-core/target/classes/com/huidou/edgeinsight/core/domain/online/OnlineStatusService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/edgeinsight-core/target/classes/com/huidou/edgeinsight/core/domain/telemetry/TelemetryIngestService.class" beforeDir="false" afterPath="$PROJECT_DIR$/edgeinsight-core/target/classes/com/huidou/edgeinsight/core/domain/telemetry/TelemetryIngestService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/edgeinsight-core/target/classes/com/huidou/edgeinsight/core/domain/telemetry/TelemetryQueryService.class" beforeDir="false" afterPath="$PROJECT_DIR$/edgeinsight-core/target/classes/com/huidou/edgeinsight/core/domain/telemetry/TelemetryQueryService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/edgeinsight-core/target/classes/com/huidou/edgeinsight/core/repository/jpa/JpaConnectivityLogRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/edgeinsight-core/target/classes/com/huidou/edgeinsight/core/repository/jpa/JpaConnectivityLogRepository.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/edgeinsight-core/target/classes/com/huidou/edgeinsight/core/repository/jpa/JpaDeviceRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/edgeinsight-core/target/classes/com/huidou/edgeinsight/core/repository/jpa/JpaDeviceRepository.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/edgeinsight-core/target/classes/com/huidou/edgeinsight/core/repository/jpa/JpaDeviceTypeRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/edgeinsight-core/target/classes/com/huidou/edgeinsight/core/repository/jpa/JpaDeviceTypeRepository.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/edgeinsight-core/target/classes/com/huidou/edgeinsight/core/repository/jpa/JpaProtocolProfileRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/edgeinsight-core/target/classes/com/huidou/edgeinsight/core/repository/jpa/JpaProtocolProfileRepository.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/edgeinsight-core/target/classes/com/huidou/edgeinsight/core/repository/jpa/JpaSysUserRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/edgeinsight-core/target/classes/com/huidou/edgeinsight/core/repository/jpa/JpaSysUserRepository.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/edgeinsight-core/target/classes/com/huidou/edgeinsight/core/repository/jpa/JpaSystemConfigRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/edgeinsight-core/target/classes/com/huidou/edgeinsight/core/repository/jpa/JpaSystemConfigRepository.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/edgeinsight-core/target/classes/com/huidou/edgeinsight/core/repository/jpa/JpaTelemetryRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/edgeinsight-core/target/classes/com/huidou/edgeinsight/core/repository/jpa/JpaTelemetryRepository.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/edgeinsight-core/target/classes/com/huidou/edgeinsight/core/repository/spi/BaseRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/edgeinsight-core/target/classes/com/huidou/edgeinsight/core/repository/spi/BaseRepository.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/edgeinsight-core/target/classes/com/huidou/edgeinsight/core/repository/spi/ConnectivityLogRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/edgeinsight-core/target/classes/com/huidou/edgeinsight/core/repository/spi/ConnectivityLogRepository.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/edgeinsight-core/target/classes/com/huidou/edgeinsight/core/repository/spi/DeviceRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/edgeinsight-core/target/classes/com/huidou/edgeinsight/core/repository/spi/DeviceRepository.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/edgeinsight-core/target/classes/com/huidou/edgeinsight/core/repository/spi/DeviceTypeRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/edgeinsight-core/target/classes/com/huidou/edgeinsight/core/repository/spi/DeviceTypeRepository.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/edgeinsight-core/target/classes/com/huidou/edgeinsight/core/repository/spi/ProtocolProfileRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/edgeinsight-core/target/classes/com/huidou/edgeinsight/core/repository/spi/ProtocolProfileRepository.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/edgeinsight-core/target/classes/com/huidou/edgeinsight/core/repository/spi/SysUserRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/edgeinsight-core/target/classes/com/huidou/edgeinsight/core/repository/spi/SysUserRepository.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/edgeinsight-core/target/classes/com/huidou/edgeinsight/core/repository/spi/SystemConfigRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/edgeinsight-core/target/classes/com/huidou/edgeinsight/core/repository/spi/SystemConfigRepository.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/edgeinsight-core/target/classes/com/huidou/edgeinsight/core/repository/spi/TelemetryRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/edgeinsight-core/target/classes/com/huidou/edgeinsight/core/repository/spi/TelemetryRepository.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/edgeinsight-core/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/edgeinsight-core/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/edgeinsight-parser-spi/target/classes/com/huidou/edgeinsight/parser/spi/DeviceAlarmMessage.class" beforeDir="false" afterPath="$PROJECT_DIR$/edgeinsight-parser-spi/target/classes/com/huidou/edgeinsight/parser/spi/DeviceAlarmMessage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/edgeinsight-parser-spi/target/classes/com/huidou/edgeinsight/parser/spi/HeartbeatMessage.class" beforeDir="false" afterPath="$PROJECT_DIR$/edgeinsight-parser-spi/target/classes/com/huidou/edgeinsight/parser/spi/HeartbeatMessage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/edgeinsight-parser-spi/target/classes/com/huidou/edgeinsight/parser/spi/MessageParser.class" beforeDir="false" afterPath="$PROJECT_DIR$/edgeinsight-parser-spi/target/classes/com/huidou/edgeinsight/parser/spi/MessageParser.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/edgeinsight-parser-spi/target/classes/com/huidou/edgeinsight/parser/spi/ParsedMessage.class" beforeDir="false" afterPath="$PROJECT_DIR$/edgeinsight-parser-spi/target/classes/com/huidou/edgeinsight/parser/spi/ParsedMessage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/edgeinsight-parser-spi/target/classes/com/huidou/edgeinsight/parser/spi/ParserRegistry.class" beforeDir="false" afterPath="$PROJECT_DIR$/edgeinsight-parser-spi/target/classes/com/huidou/edgeinsight/parser/spi/ParserRegistry.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/edgeinsight-parser-spi/target/classes/com/huidou/edgeinsight/parser/spi/ParserRouter.class" beforeDir="false" afterPath="$PROJECT_DIR$/edgeinsight-parser-spi/target/classes/com/huidou/edgeinsight/parser/spi/ParserRouter.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/edgeinsight-parser-spi/target/classes/com/huidou/edgeinsight/parser/spi/StatusMessage.class" beforeDir="false" afterPath="$PROJECT_DIR$/edgeinsight-parser-spi/target/classes/com/huidou/edgeinsight/parser/spi/StatusMessage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/edgeinsight-parser-spi/target/classes/com/huidou/edgeinsight/parser/spi/TelemetryMessage.class" beforeDir="false" afterPath="$PROJECT_DIR$/edgeinsight-parser-spi/target/classes/com/huidou/edgeinsight/parser/spi/TelemetryMessage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -153,7 +20,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="EmbeddingIndexingInfo">
-    <option name="cachedIndexableFilesCount" value="135" />
+    <option name="cachedIndexableFilesCount" value="140" />
     <option name="fileBasedEmbeddingIndicesEnabled" value="true" />
   </component>
   <component name="FileTemplateManagerImpl">
@@ -231,39 +98,39 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
-    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
-    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
-    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
-    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
-    &quot;RunOnceActivity.MCP Project settings loaded&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
-    &quot;Spring Boot.EdgeInsightApplication.executor&quot;: &quot;Run&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/panpanqingche/Documents/idea/edgeinsight-platform&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;模块&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
+    "RunOnceActivity.MCP Project settings loaded": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
+    "Spring Boot.EdgeInsightApplication.executor": "Run",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "/Users/panpanqingche/Documents/idea/edgeinsight-platform",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "模块",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "vue.rearranger.settings.migration": "true"
   },
-  &quot;keyToStringList&quot;: {
-    &quot;DatabaseDriversLRU&quot;: [
-      &quot;mysql_aurora&quot;
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "mysql_aurora"
     ]
   }
-}</component>
+}]]></component>
   <component name="RunManager">
     <configuration default="true" type="JetRunConfigurationType">
       <module name="edgeinsight-platform" />
@@ -306,7 +173,8 @@
       <workItem from="1777538603300" duration="2310000" />
       <workItem from="1778029301496" duration="3616000" />
       <workItem from="1778032940167" duration="1028000" />
-      <workItem from="1778033976079" duration="11213000" />
+      <workItem from="1778033976079" duration="12589000" />
+      <workItem from="1778051399171" duration="7181000" />
     </task>
     <task id="LOCAL-00001" summary="登录功能">
       <option name="closed" value="true" />
@@ -332,7 +200,15 @@
       <option name="project" value="LOCAL" />
       <updated>1778035522464</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="登录功能">
+      <option name="closed" value="true" />
+      <created>1778050027756</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1778050027757</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

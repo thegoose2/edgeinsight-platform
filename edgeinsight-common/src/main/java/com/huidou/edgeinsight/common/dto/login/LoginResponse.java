@@ -8,7 +8,6 @@ import java.time.Instant;
 @Data
 @Builder
 public class LoginResponse {
-    private String code;
     private String token;
     private Instant expireAt;
     private LoginResponseUserInfo userInfo;
