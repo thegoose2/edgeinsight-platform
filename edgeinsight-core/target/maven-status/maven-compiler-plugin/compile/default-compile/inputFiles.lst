@@ -15,12 +15,14 @@
 /Users/panpanqingche/Documents/idea/edgeinsight-platform/edgeinsight-core/src/main/java/com/huidou/edgeinsight/core/repository/jpa/JpaSystemConfigRepository.java
 /Users/panpanqingche/Documents/idea/edgeinsight-platform/edgeinsight-core/src/main/java/com/huidou/edgeinsight/core/auditing/SecurityAuditorAware.java
 /Users/panpanqingche/Documents/idea/edgeinsight-platform/edgeinsight-core/src/main/java/com/huidou/edgeinsight/core/domain/notification/AndonClient.java
+/Users/panpanqingche/Documents/idea/edgeinsight-platform/edgeinsight-core/src/main/java/com/huidou/edgeinsight/core/repository/spi/SysRoleRepository.java
 /Users/panpanqingche/Documents/idea/edgeinsight-platform/edgeinsight-core/src/main/java/com/huidou/edgeinsight/core/config/PasswordEncoderConfig.java
 /Users/panpanqingche/Documents/idea/edgeinsight-platform/edgeinsight-core/src/main/java/com/huidou/edgeinsight/core/domain/base/BaseServiceImpl.java
 /Users/panpanqingche/Documents/idea/edgeinsight-platform/edgeinsight-core/src/main/java/com/huidou/edgeinsight/core/domain/base/BaseService.java
 /Users/panpanqingche/Documents/idea/edgeinsight-platform/edgeinsight-core/src/main/java/com/huidou/edgeinsight/core/domain/notification/WebSocketPushService.java
 /Users/panpanqingche/Documents/idea/edgeinsight-platform/edgeinsight-core/src/main/java/com/huidou/edgeinsight/core/cache/ResolvedContextCache.java
 /Users/panpanqingche/Documents/idea/edgeinsight-platform/edgeinsight-core/src/main/java/com/huidou/edgeinsight/core/domain/auth/AuthService.java
+/Users/panpanqingche/Documents/idea/edgeinsight-platform/edgeinsight-core/src/main/java/com/huidou/edgeinsight/core/repository/jpa/JpaSysRoleRepository.java
 /Users/panpanqingche/Documents/idea/edgeinsight-platform/edgeinsight-core/src/main/java/com/huidou/edgeinsight/core/repository/spi/SysUserRepository.java
 /Users/panpanqingche/Documents/idea/edgeinsight-platform/edgeinsight-core/src/main/java/com/huidou/edgeinsight/core/repository/spi/BaseRepository.java
 /Users/panpanqingche/Documents/idea/edgeinsight-platform/edgeinsight-core/src/main/java/com/huidou/edgeinsight/core/repository/spi/ProtocolProfileRepository.java
