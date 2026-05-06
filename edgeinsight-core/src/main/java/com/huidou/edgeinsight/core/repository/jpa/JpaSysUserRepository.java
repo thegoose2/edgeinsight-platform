@@ -1,6 +1,7 @@
 package com.huidou.edgeinsight.core.repository.jpa;
 
 import com.huidou.edgeinsight.common.model.SysUser;
+import com.huidou.edgeinsight.core.repository.spi.SysUserRepository;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.Query;
 import org.springframework.data.repository.query.Param;
@@ -9,7 +10,7 @@ import org.springframework.stereotype.Repository;
 import java.util.Optional;
 
 @Repository
-public interface JpaSysUserRepository extends JpaRepository<SysUser, Long> {
+public interface JpaSysUserRepository extends JpaRepository<SysUser, Long>, SysUserRepository {
 
     Optional<SysUser> findByUsername(String username);
 

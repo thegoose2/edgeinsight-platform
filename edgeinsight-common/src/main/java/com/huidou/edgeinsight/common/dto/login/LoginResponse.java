@@ -9,7 +9,4 @@ public class LoginResponse {
 
     private String code;
     private LoginResponseData data;
-
-    public LoginResponse() {}
-
 }

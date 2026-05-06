@@ -6,13 +6,13 @@ public class DeviceStatusChangedEvent extends ApplicationEvent {
 
     private final Long deviceId;
     private final String onlineStatus;
-    private final Long timestamp;
+    private final Long eventTimestamp;
 
-    public DeviceStatusChangedEvent(Object source, Long deviceId, String onlineStatus, Long timestamp) {
+    public DeviceStatusChangedEvent(Object source, Long deviceId, String onlineStatus, Long eventTimestamp) {
         super(source);
         this.deviceId = deviceId;
         this.onlineStatus = onlineStatus;
-        this.timestamp = timestamp;
+        this.eventTimestamp = eventTimestamp;
     }
 
     public Long getDeviceId() {
@@ -23,7 +23,7 @@ public class DeviceStatusChangedEvent extends ApplicationEvent {
         return onlineStatus;
     }
 
-    public Long getTimestamp() {
-        return timestamp;
+    public Long getEventTimestamp() {
+        return eventTimestamp;
     }
 }

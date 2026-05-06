@@ -7,14 +7,14 @@ public class TelemetryReceivedEvent extends ApplicationEvent {
     private final Long deviceId;
     private final String pointCode;
     private final Object value;
-    private final Long timestamp;
+    private final Long eventTimestamp;
 
-    public TelemetryReceivedEvent(Object source, Long deviceId, String pointCode, Object value, Long timestamp) {
+    public TelemetryReceivedEvent(Object source, Long deviceId, String pointCode, Object value, Long eventTimestamp) {
         super(source);
         this.deviceId = deviceId;
         this.pointCode = pointCode;
         this.value = value;
-        this.timestamp = timestamp;
+        this.eventTimestamp = eventTimestamp;
     }
 
     public Long getDeviceId() {
@@ -29,7 +29,7 @@ public class TelemetryReceivedEvent extends ApplicationEvent {
         return value;
     }
 
-    public Long getTimestamp() {
-        return timestamp;
+    public Long getEventTimestamp() {
+        return eventTimestamp;
     }
 }

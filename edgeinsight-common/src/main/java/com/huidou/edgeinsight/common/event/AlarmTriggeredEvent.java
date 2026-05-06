@@ -7,14 +7,14 @@ public class AlarmTriggeredEvent extends ApplicationEvent {
     private final Long deviceId;
     private final String alarmCode;
     private final String alarmDesc;
-    private final Long timestamp;
+    private final Long eventTimestamp;
 
-    public AlarmTriggeredEvent(Object source, Long deviceId, String alarmCode, String alarmDesc, Long timestamp) {
+    public AlarmTriggeredEvent(Object source, Long deviceId, String alarmCode, String alarmDesc, Long eventTimestamp) {
         super(source);
         this.deviceId = deviceId;
         this.alarmCode = alarmCode;
         this.alarmDesc = alarmDesc;
-        this.timestamp = timestamp;
+        this.eventTimestamp = eventTimestamp;
     }
 
     public Long getDeviceId() {
@@ -29,7 +29,7 @@ public class AlarmTriggeredEvent extends ApplicationEvent {
         return alarmDesc;
     }
 
-    public Long getTimestamp() {
-        return timestamp;
+    public Long getEventTimestamp() {
+        return eventTimestamp;
     }
 }

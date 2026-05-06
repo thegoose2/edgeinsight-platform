@@ -9,4 +9,6 @@ public interface SysUserRepository {
     Optional<SysUser> findByUsername(String username);
 
     Optional<SysUser> findByUsernameWithRolesAndPermissions(String username);
+
+    SysUser save(SysUser user);
 }

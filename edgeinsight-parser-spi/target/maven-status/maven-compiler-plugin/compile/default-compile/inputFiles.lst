@@ -1,0 +1,8 @@
+/Users/panpanqingche/Documents/idea/edgeinsight-platform/edgeinsight-parser-spi/src/main/java/com/huidou/edgeinsight/parser/spi/HeartbeatMessage.java
+/Users/panpanqingche/Documents/idea/edgeinsight-platform/edgeinsight-parser-spi/src/main/java/com/huidou/edgeinsight/parser/spi/ParserRouter.java
+/Users/panpanqingche/Documents/idea/edgeinsight-platform/edgeinsight-parser-spi/src/main/java/com/huidou/edgeinsight/parser/spi/ParsedMessage.java
+/Users/panpanqingche/Documents/idea/edgeinsight-platform/edgeinsight-parser-spi/src/main/java/com/huidou/edgeinsight/parser/spi/DeviceAlarmMessage.java
+/Users/panpanqingche/Documents/idea/edgeinsight-platform/edgeinsight-parser-spi/src/main/java/com/huidou/edgeinsight/parser/spi/StatusMessage.java
+/Users/panpanqingche/Documents/idea/edgeinsight-platform/edgeinsight-parser-spi/src/main/java/com/huidou/edgeinsight/parser/spi/ParserRegistry.java
+/Users/panpanqingche/Documents/idea/edgeinsight-platform/edgeinsight-parser-spi/src/main/java/com/huidou/edgeinsight/parser/spi/MessageParser.java
+/Users/panpanqingche/Documents/idea/edgeinsight-platform/edgeinsight-parser-spi/src/main/java/com/huidou/edgeinsight/parser/spi/TelemetryMessage.java

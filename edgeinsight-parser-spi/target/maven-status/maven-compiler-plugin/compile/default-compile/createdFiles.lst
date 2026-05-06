@@ -1,0 +1,8 @@
+com/huidou/edgeinsight/parser/spi/ParsedMessage.class
+com/huidou/edgeinsight/parser/spi/DeviceAlarmMessage.class
+com/huidou/edgeinsight/parser/spi/HeartbeatMessage.class
+com/huidou/edgeinsight/parser/spi/TelemetryMessage.class
+com/huidou/edgeinsight/parser/spi/ParserRegistry.class
+com/huidou/edgeinsight/parser/spi/StatusMessage.class
+com/huidou/edgeinsight/parser/spi/MessageParser.class
+com/huidou/edgeinsight/parser/spi/ParserRouter.class

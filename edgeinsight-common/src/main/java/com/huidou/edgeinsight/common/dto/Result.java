@@ -30,6 +30,14 @@ public class Result<T> {
         return new Result<>(code, message, null);
     }
 
+    public static <T> Result<T> unauthorized(String message) {
+        return new Result<>(401, message, null);
+    }
+
+    public static <T> Result<T> forbidden(String message) {
+        return new Result<>(403, message, null);
+    }
+
     public int getCode() {
         return code;
     }

@@ -1,0 +1,5 @@
+com/huidou/edgeinsight/adapter/mqtt/MqttMessageListener.class
+com/huidou/edgeinsight/adapter/mqtt/DeviceAuthenticator.class
+com/huidou/edgeinsight/adapter/mqtt/MoquetteBrokerConfig.class
+com/huidou/edgeinsight/adapter/mqtt/impl/mqtt/DefaultJsonParser.class
+com/huidou/edgeinsight/adapter/mqtt/MqttPublisher.class

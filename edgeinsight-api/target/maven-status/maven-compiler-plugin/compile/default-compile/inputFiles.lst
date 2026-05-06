@@ -1,0 +1,17 @@
+/Users/panpanqingche/Documents/idea/edgeinsight-platform/edgeinsight-api/src/main/java/com/huidou/edgeinsight/api/security/JwtAuthFilter.java
+/Users/panpanqingche/Documents/idea/edgeinsight-platform/edgeinsight-api/src/main/java/com/huidou/edgeinsight/api/rest/AuthController.java
+/Users/panpanqingche/Documents/idea/edgeinsight-platform/edgeinsight-api/src/main/java/com/huidou/edgeinsight/api/rest/SysRoleController.java
+/Users/panpanqingche/Documents/idea/edgeinsight-platform/edgeinsight-api/src/main/java/com/huidou/edgeinsight/api/security/config/SecurityProperties.java
+/Users/panpanqingche/Documents/idea/edgeinsight-platform/edgeinsight-api/src/main/java/com/huidou/edgeinsight/api/security/PermissionAspect.java
+/Users/panpanqingche/Documents/idea/edgeinsight-platform/edgeinsight-api/src/main/java/com/huidou/edgeinsight/api/rest/SysUserController.java
+/Users/panpanqingche/Documents/idea/edgeinsight-platform/edgeinsight-api/src/main/java/com/huidou/edgeinsight/api/security/annotation/RequiresPermission.java
+/Users/panpanqingche/Documents/idea/edgeinsight-platform/edgeinsight-api/src/main/java/com/huidou/edgeinsight/api/rest/TelemetryController.java
+/Users/panpanqingche/Documents/idea/edgeinsight-platform/edgeinsight-api/src/main/java/com/huidou/edgeinsight/api/rest/DeviceTypeController.java
+/Users/panpanqingche/Documents/idea/edgeinsight-platform/edgeinsight-api/src/main/java/com/huidou/edgeinsight/api/rest/ConnectivityController.java
+/Users/panpanqingche/Documents/idea/edgeinsight-platform/edgeinsight-api/src/main/java/com/huidou/edgeinsight/api/websocket/RealtimeWsHandler.java
+/Users/panpanqingche/Documents/idea/edgeinsight-platform/edgeinsight-api/src/main/java/com/huidou/edgeinsight/api/rest/DeviceController.java
+/Users/panpanqingche/Documents/idea/edgeinsight-platform/edgeinsight-api/src/main/java/com/huidou/edgeinsight/api/rest/SystemConfigController.java
+/Users/panpanqingche/Documents/idea/edgeinsight-platform/edgeinsight-api/src/main/java/com/huidou/edgeinsight/api/rest/SysPermissionController.java
+/Users/panpanqingche/Documents/idea/edgeinsight-platform/edgeinsight-api/src/main/java/com/huidou/edgeinsight/api/security/annotation/Anonymous.java
+/Users/panpanqingche/Documents/idea/edgeinsight-platform/edgeinsight-api/src/main/java/com/huidou/edgeinsight/api/security/JwtTokenProvider.java
+/Users/panpanqingche/Documents/idea/edgeinsight-platform/edgeinsight-api/src/main/java/com/huidou/edgeinsight/api/rest/ProtocolProfileController.java

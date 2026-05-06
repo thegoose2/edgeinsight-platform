@@ -9,8 +9,11 @@ import org.springframework.stereotype.Component;
 
 import javax.crypto.SecretKey;
 import java.nio.charset.StandardCharsets;
+import java.time.Instant;
+import java.time.temporal.ChronoUnit;
 import java.util.Date;
 import java.util.List;
+import java.util.Map;
 import java.util.Set;
 import java.util.stream.Collectors;
 
@@ -123,5 +126,17 @@ public class JwtTokenProvider {
         } catch (JwtException | IllegalArgumentException e) {
             return false;
         }
+    }
+
+    public Map<String, Object> parseClaims(String token) {
+        Jws<Claims> claims = Jwts.parser()
+                .verifyWith(secretKey)
+                .build()
+                .parseSignedClaims(token);
+        return claims.getPayload();
+    }
+
+    public Instant getExpirationInstant() {
+        return Instant.now().plus(accessTokenExpireHours, ChronoUnit.HOURS);
     }
 }
