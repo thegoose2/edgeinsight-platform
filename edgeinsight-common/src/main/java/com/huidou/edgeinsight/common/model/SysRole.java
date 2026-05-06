@@ -8,11 +8,13 @@ import javax.persistence.Entity;
 import javax.persistence.EnumType;
 import javax.persistence.Enumerated;
 import javax.persistence.FetchType;
-import javax.persistence.OneToMany;
+import javax.persistence.JoinColumn;
+import javax.persistence.JoinTable;
+import javax.persistence.ManyToMany;
 import javax.persistence.Table;
 import javax.persistence.UniqueConstraint;
-import java.util.ArrayList;
-import java.util.List;
+import java.util.HashSet;
+import java.util.Set;
 
 @Data
 @Entity
@@ -37,8 +39,11 @@ public class SysRole extends AuditableEntity {
     @Column(name = "status", nullable = false)
     private RoleStatus status = RoleStatus.ACTIVE;
 
-    @OneToMany(mappedBy = "role", fetch = FetchType.LAZY)
-    private List<SysRolePermission> rolePermissions = new ArrayList<>();
+    @ManyToMany(fetch = FetchType.LAZY)
+    @JoinTable(name = "sys_role_permission",
+            joinColumns = @JoinColumn(name = "role_id"),
+            inverseJoinColumns = @JoinColumn(name = "perm_id"))
+    private Set<SysPermission> permissions = new HashSet<>();
 
     public enum RoleStatus {
         ACTIVE, INACTIVE

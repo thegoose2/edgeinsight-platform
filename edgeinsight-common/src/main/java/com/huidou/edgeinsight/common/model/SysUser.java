@@ -8,11 +8,13 @@ import javax.persistence.Entity;
 import javax.persistence.EnumType;
 import javax.persistence.Enumerated;
 import javax.persistence.FetchType;
-import javax.persistence.OneToMany;
+import javax.persistence.JoinColumn;
+import javax.persistence.JoinTable;
+import javax.persistence.ManyToMany;
 import javax.persistence.Table;
 import javax.persistence.UniqueConstraint;
-import java.util.ArrayList;
-import java.util.List;
+import java.util.HashSet;
+import java.util.Set;
 
 @Data
 @Entity
@@ -46,8 +48,11 @@ public class SysUser extends AuditableEntity {
     @Column(name = "last_login_at")
     private java.time.LocalDateTime lastLoginAt;
 
-    @OneToMany(mappedBy = "user", fetch = FetchType.LAZY)
-    private List<SysUserRole> userRoles = new ArrayList<>();
+    @ManyToMany(fetch = FetchType.LAZY)
+    @JoinTable(name = "sys_user_role",
+            joinColumns = @JoinColumn(name = "user_id"),
+            inverseJoinColumns = @JoinColumn(name = "role_id"))
+    private Set<SysRole> roles = new HashSet<>();
 
     public enum UserStatus {
         ACTIVE, INACTIVE

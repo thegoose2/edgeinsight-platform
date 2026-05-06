@@ -8,11 +8,16 @@ com/huidou/edgeinsight/api/rest/SysPermissionController.class
 com/huidou/edgeinsight/api/rest/AuthController.class
 com/huidou/edgeinsight/api/rest/TelemetryController.class
 com/huidou/edgeinsight/api/rest/SysRoleController.class
+com/huidou/edgeinsight/api/security/JwtPrincipal.class
 com/huidou/edgeinsight/api/websocket/RealtimeWsHandler.class
 com/huidou/edgeinsight/api/rest/ConnectivityController.class
 com/huidou/edgeinsight/api/security/PermissionAspect.class
 com/huidou/edgeinsight/api/security/JwtTokenProvider.class
 com/huidou/edgeinsight/api/rest/ProtocolProfileController.class
+com/huidou/edgeinsight/api/security/JwtAuthenticationToken.class
+com/huidou/edgeinsight/api/security/SecurityUtils.class
 com/huidou/edgeinsight/api/security/annotation/RequiresPermission.class
 com/huidou/edgeinsight/api/rest/DeviceController.class
+com/huidou/edgeinsight/api/security/PublicEndpointRegistry.class
+com/huidou/edgeinsight/api/security/JwtPrincipal$JwtPrincipalBuilder.class
 com/huidou/edgeinsight/api/security/JwtAuthFilter.class

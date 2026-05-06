@@ -13,7 +13,6 @@ import javax.persistence.Table;
 @Table(name = "protocol_profile")
 public class ProtocolProfile extends AuditableEntity {
 
-    @Id
     @Column(name = "profile_type")
     private String profileType;
 

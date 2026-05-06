@@ -13,6 +13,7 @@ com/huidou/edgeinsight/core/repository/jpa/JpaConnectivityLogRepository.class
 com/huidou/edgeinsight/core/repository/jpa/JpaTelemetryRepository.class
 com/huidou/edgeinsight/core/repository/spi/SysUserRepository.class
 com/huidou/edgeinsight/core/domain/online/OnlineStatusService.class
+com/huidou/edgeinsight/core/domain/auth/AuthService$LoginContext.class
 com/huidou/edgeinsight/core/domain/base/BaseService.class
 com/huidou/edgeinsight/core/repository/spi/SystemConfigRepository.class
 com/huidou/edgeinsight/core/auditing/SecurityAuditorAware.class

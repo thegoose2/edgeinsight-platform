@@ -13,8 +13,6 @@ import java.time.Instant;
 import java.time.temporal.ChronoUnit;
 import java.util.Date;
 import java.util.List;
-import java.util.Map;
-import java.util.Set;
 import java.util.stream.Collectors;
 
 @Component
@@ -22,14 +20,13 @@ public class JwtTokenProvider {
 
     private static final String JWT_SECRET_KEY = "jwt.secret";
     private static final String JWT_EXPIRE_HOURS_KEY = "jwt.access_token_expire_hours";
-    private static final int DEFAULT_ACCESS_TOKEN_EXPIRE_HOURS = 24;
+    private static final int DEFAULT_ACCESS_TOKEN_EXPIRE_HOURS = 8;
     private static final String[] INSECURE_SECRETS = {"CHANGE_ME_IN_PROD", "CHANGE_ME", "your-secret-key", "your-256-bit-secret"};
 
     private final SecretKey secretKey;
     private final int accessTokenExpireHours;
     private final SysUserRepository sysUserRepository;
 
-    //读取
     public JwtTokenProvider(SystemConfigService systemConfigService, SysUserRepository sysUserRepository) {
         String secret = systemConfigService.getConfig(JWT_SECRET_KEY);
         this.secretKey = resolveSecretKey(secret);
@@ -37,7 +34,6 @@ public class JwtTokenProvider {
         this.sysUserRepository = sysUserRepository;
     }
 
-    //解析
     private SecretKey resolveSecretKey(String secret) {
         if (secret == null || secret.trim().isEmpty()) {
             throw new IllegalStateException(
@@ -83,27 +79,26 @@ public class JwtTokenProvider {
     }
 
     public String generateToken(String username) {
-        SysUser user = sysUserRepository.findByUsernameWithRolesAndPermissions(username)
+        SysUser user = sysUserRepository.findByUsernameWithRoles(username)
                 .orElseThrow(() -> new IllegalArgumentException("User not found: " + username));
-
-        List<String> roles = user.getUserRoles().stream()
-                .map(ur -> ur.getRole().getRoleCode())
+        List<String> roles = user.getRoles().stream()
+                .map(role -> role.getRoleCode())
                 .collect(Collectors.toList());
+        java.util.Set<String> perms = sysUserRepository.findPermissionCodesByUsername(username);
+        return generateToken(user, roles, new java.util.ArrayList<>(perms));
+    }
 
-        Set<String> permissions = user.getUserRoles().stream()
-                .flatMap(ur -> ur.getRole().getRolePermissions().stream())
-                .map(rp -> rp.getPermission().getPermCode())
-                .collect(Collectors.toSet());
-
+    public String generateToken(SysUser user, List<String> roles, List<String> perms) {
         Date now = new Date();
         Date expiryDate = new Date(now.getTime() + (accessTokenExpireHours * 60 * 60 * 1000L));
 
         return Jwts.builder()
+                .subject(user.getUsername())
                 .claim("userId", user.getId())
                 .claim("username", user.getUsername())
                 .claim("realName", user.getRealName())
                 .claim("roles", roles)
-                .claim("permissions", permissions)
+                .claim("perms", perms)
                 .claim("iat", now)
                 .claim("exp", expiryDate)
                 .signWith(secretKey)
@@ -128,12 +123,30 @@ public class JwtTokenProvider {
         }
     }
 
-    public Map<String, Object> parseClaims(String token) {
+    public JwtPrincipal parseToken(String token) {
         Jws<Claims> claims = Jwts.parser()
                 .verifyWith(secretKey)
                 .build()
                 .parseSignedClaims(token);
-        return claims.getPayload();
+
+        Claims payload = claims.getPayload();
+
+        Long userId = payload.get("userId", Long.class);
+        String username = payload.get("username", String.class);
+        String realName = payload.get("realName", String.class);
+
+        @SuppressWarnings("unchecked")
+        List<String> roles = payload.get("roles", List.class);
+        @SuppressWarnings("unchecked")
+        List<String> perms = payload.get("perms", List.class);
+
+        return JwtPrincipal.builder()
+                .userId(userId)
+                .username(username)
+                .realName(realName)
+                .roles(roles)
+                .perms(perms)
+                .build();
     }
 
     public Instant getExpirationInstant() {

@@ -1,7 +1,6 @@
 /Users/panpanqingche/Documents/idea/edgeinsight-platform/edgeinsight-common/src/main/java/com/huidou/edgeinsight/common/dto/login/LoginResponseUserInfo.java
 /Users/panpanqingche/Documents/idea/edgeinsight-platform/edgeinsight-common/src/main/java/com/huidou/edgeinsight/common/model/TelemetryRecord.java
 /Users/panpanqingche/Documents/idea/edgeinsight-platform/edgeinsight-common/src/main/java/com/huidou/edgeinsight/common/exception/UnauthorizedException.java
-/Users/panpanqingche/Documents/idea/edgeinsight-platform/edgeinsight-common/src/main/java/com/huidou/edgeinsight/common/dto/login/LoginResponseData.java
 /Users/panpanqingche/Documents/idea/edgeinsight-platform/edgeinsight-common/src/main/java/com/huidou/edgeinsight/common/model/DeviceType.java
 /Users/panpanqingche/Documents/idea/edgeinsight-platform/edgeinsight-common/src/main/java/com/huidou/edgeinsight/common/model/SysRolePermission.java
 /Users/panpanqingche/Documents/idea/edgeinsight-platform/edgeinsight-common/src/main/java/com/huidou/edgeinsight/common/model/SysPermission.java

@@ -6,12 +6,13 @@ import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.Id;
 import javax.persistence.Table;
+import java.io.Serializable;
 import java.time.LocalDateTime;
 
 @Data
 @Entity
 @Table(name = "telemetry_latest")
-public class TelemetryLatest {
+public class TelemetryLatest implements Serializable {
 
     @Id
     @Column(name = "device_id")

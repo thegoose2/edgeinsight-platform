@@ -1,4 +1,5 @@
 com/huidou/edgeinsight/common/exception/UnauthorizedException.class
+com/huidou/edgeinsight/common/model/SysRolePermission$SysRolePermissionId.class
 com/huidou/edgeinsight/common/exception/BusinessException.class
 com/huidou/edgeinsight/common/model/SysUserRole.class
 com/huidou/edgeinsight/common/model/SysRolePermission.class
@@ -19,7 +20,7 @@ com/huidou/edgeinsight/common/exception/NotFoundException.class
 com/huidou/edgeinsight/common/dto/insert/InsertRequest.class
 com/huidou/edgeinsight/common/model/DeviceConnectivityLog.class
 com/huidou/edgeinsight/common/dto/BaseQuery.class
-com/huidou/edgeinsight/common/dto/login/LoginResponseData$LoginResponseDataBuilder.class
+com/huidou/edgeinsight/common/model/SysUserRole$SysUserRoleId.class
 com/huidou/edgeinsight/common/model/TelemetryRecord.class
 com/huidou/edgeinsight/common/model/base/AuditableEntity.class
 com/huidou/edgeinsight/common/model/SysUser.class
@@ -33,6 +34,5 @@ com/huidou/edgeinsight/common/model/TelemetryLatest.class
 com/huidou/edgeinsight/common/model/SystemConfig.class
 com/huidou/edgeinsight/common/dto/login/LoginResponse.class
 com/huidou/edgeinsight/common/model/DeviceTypePoint.class
-com/huidou/edgeinsight/common/dto/login/LoginResponseData.class
 com/huidou/edgeinsight/common/dto/login/LoginRequest.class
 com/huidou/edgeinsight/common/event/TelemetryReceivedEvent.class

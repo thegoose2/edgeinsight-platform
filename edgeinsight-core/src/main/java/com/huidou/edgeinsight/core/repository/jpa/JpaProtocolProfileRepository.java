@@ -9,5 +9,5 @@ import java.util.Optional;
 @Repository
 public interface JpaProtocolProfileRepository extends JpaRepository<ProtocolProfile, Long> {
 
-    Optional<ProtocolProfile> findByProtocolCode(String protocolCode);
+    Optional<ProtocolProfile> findByProtocol(String protocol);
 }

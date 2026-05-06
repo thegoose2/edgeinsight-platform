@@ -8,7 +8,9 @@ public interface SysUserRepository {
 
     Optional<SysUser> findByUsername(String username);
 
-    Optional<SysUser> findByUsernameWithRolesAndPermissions(String username);
+    Optional<SysUser> findByUsernameWithRoles(String username);
+
+    java.util.Set<String> findPermissionCodesByUsername(String username);
 
     SysUser save(SysUser user);
 }

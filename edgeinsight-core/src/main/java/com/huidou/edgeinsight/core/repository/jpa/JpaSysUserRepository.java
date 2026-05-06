@@ -15,10 +15,13 @@ public interface JpaSysUserRepository extends JpaRepository<SysUser, Long>, SysU
     Optional<SysUser> findByUsername(String username);
 
     @Query("SELECT DISTINCT u FROM SysUser u " +
-           "LEFT JOIN FETCH u.userRoles ur " +
-           "LEFT JOIN FETCH ur.role r " +
-           "LEFT JOIN FETCH r.rolePermissions rp " +
-           "LEFT JOIN FETCH rp.permission " +
+           "LEFT JOIN FETCH u.roles r " +
            "WHERE u.username = :username")
-    Optional<SysUser> findByUsernameWithRolesAndPermissions(@Param("username") String username);
+    Optional<SysUser> findByUsernameWithRoles(@Param("username") String username);
+
+    @Query("SELECT DISTINCT p.permCode FROM SysUser u " +
+           "JOIN u.roles r " +
+           "JOIN r.permissions p " +
+           "WHERE u.username = :username")
+    java.util.Set<String> findPermissionCodesByUsername(@Param("username") String username);
 }

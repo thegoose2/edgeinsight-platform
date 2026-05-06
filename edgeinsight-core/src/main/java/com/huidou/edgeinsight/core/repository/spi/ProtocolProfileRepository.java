@@ -8,7 +8,7 @@ public interface ProtocolProfileRepository {
 
     java.util.Optional<ProtocolProfile> findById(Long id);
 
-    java.util.Optional<ProtocolProfile> findByProtocolCode(String protocolCode);
+    java.util.Optional<ProtocolProfile> findByProtocol(String protocol);
 
     java.util.List<ProtocolProfile> findAll();
 

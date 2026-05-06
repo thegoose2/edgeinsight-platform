@@ -6,6 +6,7 @@ import com.huidou.edgeinsight.common.exception.ForbiddenException;
 import com.huidou.edgeinsight.common.exception.NotFoundException;
 import com.huidou.edgeinsight.common.exception.UnauthorizedException;
 import org.springframework.http.HttpStatus;
+import org.springframework.web.bind.MethodArgumentNotValidException;
 import org.springframework.web.bind.annotation.ExceptionHandler;
 import org.springframework.web.bind.annotation.ResponseStatus;
 import org.springframework.web.bind.annotation.RestControllerAdvice;
@@ -35,6 +36,16 @@ public class GlobalExceptionHandler {
     @ResponseStatus(HttpStatus.OK)
     public Result<?> handleBusinessException(BusinessException e) {
         return Result.fail(e.getCode(), e.getMessage());
+    }
+
+    @ExceptionHandler(MethodArgumentNotValidException.class)
+    @ResponseStatus(HttpStatus.BAD_REQUEST)
+    public Result<?> handleMethodArgumentNotValidException(MethodArgumentNotValidException e) {
+        String message = e.getBindingResult().getFieldErrors().stream()
+                .map(error -> error.getField() + ": " + error.getDefaultMessage())
+                .findFirst()
+                .orElse("Validation failed");
+        return Result.fail(400, message);
     }
 
     @ExceptionHandler(Exception.class)
