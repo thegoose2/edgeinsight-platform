@@ -5,33 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4c768f25-7c48-423a-b584-bbe1000a9834" name="更改" comment="登录功能">
-      <change afterPath="$PROJECT_DIR$/edgeinsight-common/src/main/java/com/huidou/edgeinsight/common/dto/insert/InsertRequest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/claudeCodeTabState.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/claudeCodeTabState.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/edgeinsight-api/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/edgeinsight-api/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/edgeinsight-api/src/main/java/com/huidou/edgeinsight/api/rest/AuthController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/edgeinsight-api/src/main/java/com/huidou/edgeinsight/api/security/JwtAuthFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/edgeinsight-api/src/main/java/com/huidou/edgeinsight/api/security/JwtAuthFilter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/edgeinsight-api/src/main/java/com/huidou/edgeinsight/api/security/JwtTokenProvider.java" beforeDir="false" afterPath="$PROJECT_DIR$/edgeinsight-api/src/main/java/com/huidou/edgeinsight/api/security/JwtTokenProvider.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/edgeinsight-api/src/main/java/com/huidou/edgeinsight/api/security/PermissionAspect.java" beforeDir="false" afterPath="$PROJECT_DIR$/edgeinsight-api/src/main/java/com/huidou/edgeinsight/api/security/PermissionAspect.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/edgeinsight-api/src/main/java/com/huidou/edgeinsight/api/websocket/RealtimeWsHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/edgeinsight-api/src/main/java/com/huidou/edgeinsight/api/websocket/RealtimeWsHandler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/edgeinsight-app/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/edgeinsight-app/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/edgeinsight-common/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/edgeinsight-common/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/edgeinsight-common/src/main/java/com/huidou/edgeinsight/common/dto/Result.java" beforeDir="false" afterPath="$PROJECT_DIR$/edgeinsight-common/src/main/java/com/huidou/edgeinsight/common/dto/Result.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/edgeinsight-common/src/main/java/com/huidou/edgeinsight/common/dto/login/LoginRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/edgeinsight-common/src/main/java/com/huidou/edgeinsight/common/dto/login/LoginRequest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/edgeinsight-common/src/main/java/com/huidou/edgeinsight/common/dto/login/LoginResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/edgeinsight-common/src/main/java/com/huidou/edgeinsight/common/dto/login/LoginResponse.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/edgeinsight-common/src/main/java/com/huidou/edgeinsight/common/event/AlarmTriggeredEvent.java" beforeDir="false" afterPath="$PROJECT_DIR$/edgeinsight-common/src/main/java/com/huidou/edgeinsight/common/event/AlarmTriggeredEvent.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/edgeinsight-common/src/main/java/com/huidou/edgeinsight/common/event/DeviceStatusChangedEvent.java" beforeDir="false" afterPath="$PROJECT_DIR$/edgeinsight-common/src/main/java/com/huidou/edgeinsight/common/event/DeviceStatusChangedEvent.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/edgeinsight-common/src/main/java/com/huidou/edgeinsight/common/event/TelemetryReceivedEvent.java" beforeDir="false" afterPath="$PROJECT_DIR$/edgeinsight-common/src/main/java/com/huidou/edgeinsight/common/event/TelemetryReceivedEvent.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/edgeinsight-common/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/edgeinsight-common/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/edgeinsight-common/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/edgeinsight-common/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/edgeinsight-core/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/edgeinsight-core/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/edgeinsight-core/src/main/java/com/huidou/edgeinsight/core/domain/auth/AuthService.java" beforeDir="false" afterPath="$PROJECT_DIR$/edgeinsight-core/src/main/java/com/huidou/edgeinsight/core/domain/auth/AuthService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/edgeinsight-core/src/main/java/com/huidou/edgeinsight/core/domain/auth/RoleService.java" beforeDir="false" afterPath="$PROJECT_DIR$/edgeinsight-core/src/main/java/com/huidou/edgeinsight/core/domain/auth/RoleService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/edgeinsight-core/src/main/java/com/huidou/edgeinsight/core/domain/auth/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/edgeinsight-core/src/main/java/com/huidou/edgeinsight/core/domain/auth/UserService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/edgeinsight-core/src/main/java/com/huidou/edgeinsight/core/repository/jpa/JpaSysUserRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/edgeinsight-core/src/main/java/com/huidou/edgeinsight/core/repository/jpa/JpaSysUserRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/edgeinsight-core/src/main/java/com/huidou/edgeinsight/core/repository/spi/SysUserRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/edgeinsight-core/src/main/java/com/huidou/edgeinsight/core/repository/spi/SysUserRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/edgeinsight-api/src/main/java/com/huidou/edgeinsight/api/rest/AuthController.java" beforeDir="false" afterPath="$PROJECT_DIR$/edgeinsight-api/src/main/java/com/huidou/edgeinsight/api/rest/AuthController.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,7 +15,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="EmbeddingIndexingInfo">
-    <option name="cachedIndexableFilesCount" value="134" />
+    <option name="cachedIndexableFilesCount" value="135" />
     <option name="fileBasedEmbeddingIndicesEnabled" value="true" />
   </component>
   <component name="FileTemplateManagerImpl">
@@ -190,7 +166,9 @@
       <workItem from="1777341879772" duration="46000" />
       <workItem from="1777341946430" duration="9498000" />
       <workItem from="1777538603300" duration="2310000" />
-      <workItem from="1778029301496" duration="3103000" />
+      <workItem from="1778029301496" duration="3616000" />
+      <workItem from="1778032940167" duration="1028000" />
+      <workItem from="1778033976079" duration="1533000" />
     </task>
     <task id="LOCAL-00001" summary="登录功能">
       <option name="closed" value="true" />
@@ -200,7 +178,15 @@
       <option name="project" value="LOCAL" />
       <updated>1777532382063</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="登录功能">
+      <option name="closed" value="true" />
+      <created>1778032559495</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1778032559495</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

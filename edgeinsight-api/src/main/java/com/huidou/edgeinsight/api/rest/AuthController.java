@@ -1,32 +1,53 @@
 package com.huidou.edgeinsight.api.rest;
 
 import com.huidou.edgeinsight.api.security.JwtTokenProvider;
+import com.huidou.edgeinsight.api.security.annotation.Anonymous;
+import com.huidou.edgeinsight.common.dto.Result;
 import com.huidou.edgeinsight.common.dto.login.LoginRequest;
 import com.huidou.edgeinsight.common.dto.login.LoginResponse;
-import com.huidou.edgeinsight.common.dto.Result;
+import com.huidou.edgeinsight.common.dto.login.LoginResponseData;
 import com.huidou.edgeinsight.common.dto.login.LoginResponseUserInfo;
-import org.springframework.web.bind.annotation.*;
+import com.huidou.edgeinsight.core.domain.auth.AuthService;
+import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.RequestBody;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RestController;
+
+import javax.validation.Valid;
+import java.time.Instant;
 
 @RestController
-@RequestMapping("/api/auth")
+@RequestMapping("/api/v1/auth")
 public class AuthController {
 
+    private final AuthService authService;
     private final JwtTokenProvider jwtTokenProvider;
 
-    public AuthController(JwtTokenProvider jwtTokenProvider) {
+    public AuthController(AuthService authService, JwtTokenProvider jwtTokenProvider) {
+        this.authService = authService;
         this.jwtTokenProvider = jwtTokenProvider;
     }
 
+    @Anonymous
     @PostMapping("/login")
-    public Result<LoginResponse> login(@RequestBody LoginRequest request) {
-        String token = jwtTokenProvider.generateToken(request.getUsername());
-        LoginResponseUserInfo userInfo = new LoginResponseUserInfo(1L, request.getUsername(), "user@example.com");
-        LoginResponse response = new LoginResponse(token, userInfo);
-        return Result.ok(response);
-    }
+    public Result<LoginResponse> login(@Valid @RequestBody LoginRequest request) {
+        LoginResponseUserInfo userInfo = authService.login(request);
 
-    @PostMapping("/logout")
-    public Result<?> logout() {
-        return Result.ok();
+        String token = jwtTokenProvider.generateToken(userInfo.getUsername());
+
+        Instant expiresAt = jwtTokenProvider.getExpirationInstant();
+
+        LoginResponseData data = LoginResponseData.builder()
+                .token(token)
+                .expiresAt(expiresAt)
+                .userInfo(userInfo)
+                .build();
+
+        LoginResponse response = LoginResponse.builder()
+                .code("200")
+                .data(data)
+                .build();
+
+        return Result.ok(response);
     }
 }
