@@ -2,7 +2,7 @@ spring:
   application:
     name: edgeinsight-platform
   datasource:
-    url: jdbc:mysql://localhost:3306/edgeinsight-platform?useSSL=false&serverTimezone=UTC
+    url: jdbc:mysql://localhost:3306/edgeinsight-platform?useSSL=false&serverTimezone=UTC&allowPublicKeyRetrieval=true
     username: root
     password: 200472
     driver-class-name: com.mysql.cj.jdbc.Driver
@@ -21,6 +21,7 @@ server:
 security:
   public-paths:
     - POST:/api/v1/auth/login
+    - GET:/actuator/health
 
 logging:
   level:

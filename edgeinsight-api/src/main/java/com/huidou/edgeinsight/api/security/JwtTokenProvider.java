@@ -5,6 +5,8 @@ import com.huidou.edgeinsight.core.config.SystemConfigService;
 import com.huidou.edgeinsight.core.repository.spi.SysUserRepository;
 import io.jsonwebtoken.*;
 import io.jsonwebtoken.security.Keys;
+import lombok.Builder;
+import lombok.Data;
 import org.springframework.stereotype.Component;
 
 import javax.crypto.SecretKey;
@@ -17,6 +19,19 @@ import java.util.stream.Collectors;
 
 @Component
 public class JwtTokenProvider {
+
+    /**
+     * JWT Payload 解析结果，供过滤器与权限切面使用。
+     */
+    @Data
+    @Builder
+    public static class JwtClaims {
+        private Long userId;
+        private String username;
+        private String realName;
+        private List<String> roles;
+        private List<String> perms;
+    }
 
     private static final String JWT_SECRET_KEY = "jwt.secret";
     private static final String JWT_EXPIRE_HOURS_KEY = "jwt.access_token_expire_hours";
@@ -123,7 +138,7 @@ public class JwtTokenProvider {
         }
     }
 
-    public JwtPrincipal parseToken(String token) {
+    public JwtClaims parseToken(String token) {
         Jws<Claims> claims = Jwts.parser()
                 .verifyWith(secretKey)
                 .build()
@@ -140,7 +155,7 @@ public class JwtTokenProvider {
         @SuppressWarnings("unchecked")
         List<String> perms = payload.get("perms", List.class);
 
-        return JwtPrincipal.builder()
+        return JwtClaims.builder()
                 .userId(userId)
                 .username(username)
                 .realName(realName)
